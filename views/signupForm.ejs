@@ -1,0 +1,27 @@
+<h1>Sign up today!</h1>
+
+<form action="/auth/signup" method="POST">
+	<legend>New User</legend>
+
+	<div class="form-group">
+		<label for="login">Email</label>
+		<input type="email" class="form-control" id="login" name="email" placeholder="Type your email">
+	</div>
+
+	<div class="form-group">
+		<label for="password">Password</label>
+		<input type="password" class="form-control" id="password" name="password" placeholder="Type your password">
+	</div>
+
+	<div class="form-group">
+		<label for="firstname">First Name</label>
+		<input type="text" class="form-control" id="firstname" name="firstName" placeholder="Your first name">
+	</div>
+
+	<div class="form-group">
+		<label for="lastname">Last Name</label>
+		<input type="text" class="form-control" id="lastname" name="lastName" placeholder="Your last name">
+	</div>
+
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
